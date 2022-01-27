@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body
+{
+  font-family: 'Arvo', serif;
+  background-image: linear-gradient(to bottom, rgb(190, 190, 190), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+div#divPainelLogin, div#divPainelCriarConta
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 400px;
+  border: #b3b3b3;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+  border-width: 1px;
+}
+
+div#divMascara
+{
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 430px;
+  border: #c2c2c2c2;
+  border-style: solid;
+  background-color: #c2c2c259;
+}
+
+label{
+  text-align: left;
+}
+
+a
+{
+  color: #4677fd;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+h1
+{
+  color: #1e88de;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+fieldset
+{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0px;
+}
+
+input,
+textarea,
+select
+{
+  border: 1px solid #bbbbbb;
+  height: 35px;
+  margin-bottom: 6px;
+}
+
+input[type=text],
+input[type=password],
+select
+{
+  font-size: 14px;
+  width: 300px;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+
+input[type=button],
+input[type=submit]
+{
+  background-color: #00a3ee;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover
+{
+  background-color: #69c5ee;
+  border-color: #1e9bde;
+}
+
+input#botaoEntrar
+{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#divTermos
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    width: auto;
+    color: #7a7a7a;
+}
+
+header
+{
+    margin-top: 100px;
+}
+
+div#mensagemDeSucesso
+{
+ background-color: #0baf00;
+ width: 350px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 10px;
+ color: #ffffff;
+ padding: 10px;
+}
+
+div#mensagemDeErro
+{
+  background-color: #d40000;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema Exemplo</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estiloSistema.css"/>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastrar</h1> 
+        </header>
+            <div id="divPainelCriarConta">
+                <form>
+                    <label>Nome</label><br/>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required minlength="3"/><br/>
+                    <label>CPF</label><br/>
+                    <input type="text" name="cpf" placeholder="Digite seu CPF" 
+                    onkeydown="return isNumberKey(event)" required maxlength="11" minlength="11"/><br/>
+                    <label>Email</label><br/>
+                    <input type="text" name="email" placeholder="Digite seu Email" required minlength="5"/><br/>
+                    <label>Senha</label><br/>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required minlength="3"/><br/>
+                    <label>Confirmação da Senha</label><br/>
+                    <input type="password" name="cSenha" id="cSenha" placeholder="Digite novamente sua senha" required minlength="3"/><br/><br/>
+                
+                    <input type="button" value="Cadastrar" id="btnCadastrar">
+                    <input type="button" value="Cancelar" id="btnCancelar" style="padding-left: 5px;">
+                </form>
+            </div>
+    </body>
+</html>
