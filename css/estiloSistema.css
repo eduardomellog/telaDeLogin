@@ -18,7 +18,7 @@ div#divPainelLogin, div#divPainelCriarConta
   margin-right: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 400px;
+  width: 600px;
   border: #b3b3b3;
   border-style: solid;
   border-radius: 5px;
@@ -33,7 +33,7 @@ div#divMascara
   margin-right: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 430px;
+  width: 630px;
   border: #c2c2c2c2;
   border-style: solid;
   background-color: #c2c2c259;
@@ -59,8 +59,8 @@ h1
   color: #1e88de;
   text-transform: uppercase;
   font-style: italic;
-  font-size: 30px;
-  width: 300px;
+  font-size: 48px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
@@ -68,7 +68,7 @@ h1
 
 fieldset
 {
-  width: 400px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   border-width: 0px;
@@ -79,7 +79,7 @@ textarea,
 select
 {
   border: 1px solid #bbbbbb;
-  height: 35px;
+  height: 50px;
   margin-bottom: 6px;
 }
 
@@ -88,7 +88,7 @@ input[type=password],
 select
 {
   font-size: 14px;
-  width: 300px;
+  width: 450px;
   padding-left: 8px;
   border-radius: 5px;
 }
